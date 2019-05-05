@@ -12,14 +12,14 @@ with open(os.path.join(HERE, "README.md")) as fid:
 
 # This call to setup() does all the work
 setup(
-    name="realpython-reader",
-    version="1.0.0",
+    name="realpython-reader-tchia",
+    version="1.1.0",
     description="Read the latest Real Python tutorials",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/realpython/reader",
-    author="Real Python",
-    author_email="office@realpython.com",
+    url="https://github.com/tchia04/realpython-reader.git",
+    author="Tony Chia",
+    author_email="tchia04@gmail.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
