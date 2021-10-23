@@ -1,0 +1,22 @@
+{
+  "name": "realpythonreader-tchia",
+  "version": "1.0.0",
+  "description": "The Real Python Feed Reader is a basic [web feed](https://en.wikipedia.org/wiki/Web_feed) reader that can download the latest Real Python tutorials from the [Real Python feed](https://realpython.com/contact/#rss-atom-feed).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^7.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:tchia04/realpython-reader.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
