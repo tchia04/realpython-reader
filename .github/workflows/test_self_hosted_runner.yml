@@ -2,19 +2,22 @@
 name: Node Continuous Integration
 
 on:
+  push:
+  pull_request:
   # Trigger the workflow on push or pull request,
   # but only for the main branch
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - main
       
 jobs:
   test_pull_request:
     #runs-on: self-hosted
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
+    runs-on: MB184-TChia
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
