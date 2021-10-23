@@ -25,7 +25,4 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm ci
-      - run: npm test
-      - run: npm run build`
- # Use this YAML in your workflow file for each job
+      - run: npm install
