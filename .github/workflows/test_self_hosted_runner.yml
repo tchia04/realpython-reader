@@ -14,7 +14,7 @@ on:
   #     - main
       
 jobs:
-  test_pull_request:
+  node_12_test:
     #runs-on: self-hosted
     #runs-on: macos
     runs-on: x64
@@ -26,3 +26,22 @@ jobs:
         with:
           node-version: 12
       - run: npm install
+      - run: node --version
+
+  node_14_test:
+      runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: node --version
+
+  node_16_test:
+      runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - run: node --version
