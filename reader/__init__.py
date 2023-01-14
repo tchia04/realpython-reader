@@ -16,7 +16,7 @@ except ImportError:  # Python 2
 
 
 # Version of realpython-reader package
-__version__ = "1.1.9"
+__version__ = "1.1.10"
 
 # Read URL of feed from config file
 _cfg = _ConfigParser()
