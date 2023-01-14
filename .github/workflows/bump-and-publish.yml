@@ -29,6 +29,11 @@ jobs:
         login: tchia04
         token: "${{ secrets.MY_GITHUB_API_TOKEN }}"
 
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build
+
     - name: Build a new package with the new version number
       run: python -m build
 
