@@ -14,27 +14,16 @@ on:
   #     - main
       
 jobs:
-  node_12_test:
+  node_14_test:
     #runs-on: self-hosted
     #runs-on: macos
-    runs-on: self-hosted
-    #runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm install
-      - run: node --version
-
-  node_14_test:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 14
+      - run: npm install
       - run: node --version
 
   node_16_test:
@@ -44,13 +33,15 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 16
+      - run: npm install
       - run: node --version
 
-  node_17_test:
+  node_18_test:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 17
+          node-version: 18
+      - run: npm install
       - run: node --version
