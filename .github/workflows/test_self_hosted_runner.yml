@@ -46,11 +46,11 @@ jobs:
           node-version: 16
       - run: node --version
 
-  node_17_test:
+  node_18_test:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 17
+          node-version: 18
       - run: node --version
