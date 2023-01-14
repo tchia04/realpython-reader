@@ -40,7 +40,7 @@ More information is available at:
 Version:
 --------
 
-- realpython-reader v1.1.8
+- realpython-reader v1.1.9
 """
 # Standard library imports
 import sys
