@@ -7,7 +7,7 @@ on:
 
 jobs:
    
-  bump-version:
+  bump-and-publish:
     name: Bump package version
     if: "!contains(github.event.head_commit.message, 'Bump version')"
     runs-on: ubuntu-20.04
@@ -29,16 +29,6 @@ jobs:
         commit_email: tchia04@gmail.com
         login: tchia04
         token: "${{ secrets.MY_GITHUB_API_TOKEN }}"
-
-  publish-package:
-    name: Publish package to pypi
-    if: "!contains(github.event.head_commit.message, 'Bump version')"
-    runs-on: ubuntu-20.04
-    steps:
-    - name: actions/checkout
-      uses: actions/checkout@v3
-      with:
-          persist-credentials: false
 
     - name: Install dependencies
       run: |
