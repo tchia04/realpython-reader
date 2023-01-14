@@ -32,6 +32,7 @@ jobs:
 
   publish-package:
     name: Publish package to pypi
+    if: "!contains(github.event.head_commit.message, 'Bump version')"
     runs-on: ubuntu-20.04
     steps:
     - name: actions/checkout
