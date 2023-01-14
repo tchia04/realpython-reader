@@ -25,5 +25,5 @@ jobs:
         commit_name: tchia04-bot
         commit_email: tchia04@gmail.com
         login: tchia04
-        token: "${{ secrets.MY_GITHUB_API_TOKEN_FINE }}"
+        token: "${{ secrets.MY_GITHUB_API_TOKEN_FINE2 }}"
 
