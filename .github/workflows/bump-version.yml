@@ -21,7 +21,7 @@ jobs:
       uses: FragileTech/bump-version@main
       with:
         current_version: "${{ env.current_version }}"
-        files: setup.py reader/__init__.py reader/__main__.py
+        files: ".bumpversion.cfg setup.py reader/__init__.py reader/__main__.py"
         commit_name: tchia04-bot
         commit_email: tchia04@gmail.com
         login: tchia04
