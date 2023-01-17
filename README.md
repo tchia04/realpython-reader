@@ -9,6 +9,10 @@ For more information see the tutorial [How to Publish an Open-Source Python Pack
 [![Bump version and Publish package workflow](https://github.com/tchia04/realpython-reader/actions/workflows/bump-and-publish.yml/badge.svg)](https://github.com/tchia04/realpython-reader/actions/workflows/bump-and-publish.yml)
 
 
+Check the pypi package at 
+
+https://pypi.org/project/realpython-reader-tchia/
+
 ## How to bump the version
 ### Patch 
 To change to automatically increment the patch version portion of the version string, 
