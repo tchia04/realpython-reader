@@ -4,6 +4,10 @@ The Real Python Feed Reader is a basic [web feed](https://en.wikipedia.org/wiki/
 
 For more information see the tutorial [How to Publish an Open-Source Python Package to PyPI](https://realpython.com/pypi-publish-python-package/) on Real Python.
 
+
+
+[![Bump version and Publish package workflow](https://github.com/tchia04/realpython-reader/actions/workflows/bump-and-publish.yml/badge.svg)](https://github.com/tchia04/realpython-reader/actions/workflows/bump-and-publish.yml)
+
 ## Installation
 
 You can install the Real Python Feed Reader from [PyPI](https://pypi.org/project/realpython-reader/):

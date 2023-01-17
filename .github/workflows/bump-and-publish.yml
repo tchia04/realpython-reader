@@ -29,6 +29,7 @@ jobs:
         commit_email: tchia04@gmail.com
         login: tchia04
         token: "${{ secrets.MY_GITHUB_API_TOKEN }}"
+        part: minor
 
     - name: Install dependencies
       run: |
