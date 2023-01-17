@@ -8,6 +8,36 @@ For more information see the tutorial [How to Publish an Open-Source Python Pack
 
 [![Bump version and Publish package workflow](https://github.com/tchia04/realpython-reader/actions/workflows/bump-and-publish.yml/badge.svg)](https://github.com/tchia04/realpython-reader/actions/workflows/bump-and-publish.yml)
 
+
+## How to bump the version
+### Patch 
+To change to automatically increment the patch version portion of the version string, 
+
+Edit this line and change it to patch
+
+https://github.com/tchia04/realpython-reader/blob/master/.github/workflows/bump-and-publish.yml#L32
+
+
+### Minor
+To change to automatically increment the patch version portion of the version string, 
+
+Edit this line and change it to minor
+
+https://github.com/tchia04/realpython-reader/blob/master/.github/workflows/bump-and-publish.yml#L32
+
+To resume auto increment the patch version, make sure to change it back to patch after the minor version and package is successful 
+so the next version incremented in patch and not minor again. 
+
+### Major
+To change to automatically increment the patch version portion of the version string, 
+
+Edit this line and change it to major
+
+https://github.com/tchia04/realpython-reader/blob/master/.github/workflows/bump-and-publish.yml#L32
+
+To resume auto increment the patch version, make sure to change it back to patch after the minor version and package is successful 
+so the next version incremented in patch and not minor again. 
+
 ## Installation
 
 You can install the Real Python Feed Reader from [PyPI](https://pypi.org/project/realpython-reader/):
