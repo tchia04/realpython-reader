@@ -10,7 +10,16 @@
     "dockerfile": "Dockerfile"
   },
 	"features": {
-		"ghcr.io/devcontainers-contrib/features/ruff:1": {}
+		"ghcr.io/devcontainers-contrib/features/ruff:1": {
+			"version": "latest"
+		},
+		"ghcr.io/eitsupi/devcontainer-features/jq-likes:2": {
+			"jqVersion": "none",
+			"yqVersion": "4",
+			"gojqVersion": "none",
+			"xqVersion": "none",
+			"jaqVersion": "none"
+		}
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
