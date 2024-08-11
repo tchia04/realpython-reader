@@ -4,7 +4,20 @@ The Real Python Feed Reader is a basic [web feed](https://en.wikipedia.org/wiki/
 
 For more information see the tutorial [How to Publish an Open-Source Python Package to PyPI](https://realpython.com/pypi-publish-python-package/) on Real Python.
 
+## How to setup this project
+* Install a docker engine using either docker desktop, rancher desktop, colima, orbstack or podman
+* Install the devcontainer extension in visual studio code
+* Open the git repo with devcontainer. use of the following
+  * close the visual studio and then reopen it to get the prompt to open in devcontainer
+  * press command-shift-p and type "Dev Containers: Rebuild"
+* open a termainl inside the visual studio code
 
+If you want to use the git command inside the visual studio code to commit and push make sure to setup ssh-add on your host before opening the visual studio
+
+To test to see if you are using the correct ssh identify file or if you have correct permission run the following command
+<pre>
+  ssh -T git@github.com
+</pre>
 
 [![Bump version and Publish package workflow](https://github.com/tchia04/realpython-reader/actions/workflows/bump-and-publish.yml/badge.svg)](https://github.com/tchia04/realpython-reader/actions/workflows/bump-and-publish.yml)
 
